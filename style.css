@@ -1,0 +1,90 @@
+body {
+    overflow-x:hidden;
+}
+
+.name {
+    text-align: center;
+}
+
+.under {
+    text-align: center;
+}
+
+.navbar {
+    background-color: #5b9cc8;
+    color: white;
+}
+
+footer {
+	padding-top: 2rem;
+	padding-bottom: 2rem;
+    text-align: center;
+    background-color: #5b9cc8;
+    color: white;
+}
+
+.top-buffer {
+    margin-top: 100px;
+}
+
+.bot-buffer {
+    margin-bottom: 100px;
+}
+
+.carousel-inner > .item > img {
+    margin: 0 auto;
+    height: 400px;
+    
+}
+
+.logo-wrapper {
+    height: 500px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+}
+
+.logo-wrapper img {
+    max-height: 500px;
+    max-width: 100%;
+}
+
+.burg-image 
+{
+   max-width: none;
+   display: block;
+   position: relative;
+   left: 400px;
+   animation-iteration-count: infinite;
+   -webkit-animation-duration: 10s;
+   animation-duration: 10s;
+   -webkit-animation-timing-function: linear;
+   animation-timing-function: linear;
+   -webkit-animation-name: reveal-burg;
+   animation-name: reveal-burg;
+}
+
+@-webkit-keyframes reveal-burg {
+   0% {
+      left: 0%;
+   }
+   50% {
+      left: 50%;
+   }
+   100% {
+      left: 100%;
+   }
+}
+
+@keyframes reveal-burg {
+   0% {
+      left: 0%;
+   }
+   50% {
+      left: 50%;
+   }
+   100% {
+      left: 100%;
+   }
+}
